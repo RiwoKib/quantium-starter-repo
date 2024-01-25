@@ -1,7 +1,7 @@
 import csv, os 
         
 
-with open('pink_morsel_sales', 'w') as pink_sales:
+with open('pink_morsel_sales.csv', 'w') as pink_sales:
     header_row = ['Sales', 'Date' ,'Region']
     writer = csv.DictWriter(pink_sales, fieldnames=header_row)
 
